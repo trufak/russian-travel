@@ -1,0 +1,5 @@
+@import url(../vendor/normalize.css);
+
+/*Стили блока page*/
+
+@import url(../blocks/page/page.css);
