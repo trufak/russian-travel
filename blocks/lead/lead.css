@@ -1,0 +1,10 @@
+.lead {
+  grid-area: lead;
+  padding: 48px 0 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding: 56px 0 0;
+  }
+}

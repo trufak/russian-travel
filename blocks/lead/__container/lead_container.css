@@ -1,0 +1,24 @@
+.lead__container {
+  margin: 56px auto 0;
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для смартфона */
+  .lead__container {
+    margin: 40px 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* стили для смартфона */
+  .lead__container {
+    margin: 56px 48px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* стили для смартфона */
+  .lead__container {
+    margin: 64px 148px 0;
+  }
+}
