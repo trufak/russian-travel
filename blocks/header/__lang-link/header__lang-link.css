@@ -1,0 +1,19 @@
+.header__lang-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: calc(28/24);
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для смартфона */
+  .header__lang-link {
+    font-size: 1.125rem;
+    line-height: calc(20/18);
+  }
+}
+
+

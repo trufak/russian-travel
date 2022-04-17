@@ -1,3 +1,26 @@
 .page {
-    background: #2A2C2F;
+  background: #2A2C2F;
+  display: grid;
+  grid-template-areas:
+  "header"
+  "lead"
+  "intro"
+  "photo-grid"
+  "places"
+  "cover"
+  "footer";
+  padding: 28px 48px 24px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 28px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 16px 16px 24px;
+  }
 }
