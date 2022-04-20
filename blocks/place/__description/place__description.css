@@ -1,0 +1,12 @@
+.place__description {
+  grid-area: description;
+  display: grid;
+  gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__description {
+    gap: 25px;
+  }
+}
+

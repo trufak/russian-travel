@@ -9,16 +9,22 @@
   margin: 8px 0 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    margin-left: calc(24px - (100vw - 768px)*24/(1024 - 768)); /*переход от 24px к 0*/
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: calc(16px + (100vw - 320px)*(24 - 16)/(768 - 320)); /*переход от 16px к 24px*/
+  }
+}
+
 @media screen and (max-width: 320px) {
-  /* стили для смартфона */
   .lead__caption {
     margin-left: 16px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  /* стили для смартфона */
-  .lead__caption {
-    margin-left: 24px;
-  }
-}
+

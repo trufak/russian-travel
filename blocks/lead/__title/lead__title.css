@@ -5,24 +5,24 @@
   font-size: 6rem;
   line-height: 1.04;
   text-align: center;
-  max-width: 720px;
-  width: 93.75vw;
+  width: 720px; /*для экранов 768px и более*/
   margin: 0 auto;
 }
 
-@media screen and (max-width: 320px) {
-  /* стили для смартфона */
+@media screen and (max-width: 768px) {
   .lead__title {
-    width: 90vw;
+    font-size: calc(2.5rem + (100vw - 320px)*(96 - 40)/(768 - 320)); /*переход от 40px к 96px*/
+    line-height: calc(44px + (100vw - 320px)*(100 - 44)/(768 - 320)); /*переход от 44px к 100px*/
+    width: calc(288px + (100vw - 320px)*(720 - 288)/(768 - 320)); /*переход от 288px к 720px*/
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    width: 288px;
     font-size: 2.5rem;
     line-height: 1.1;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  /* стили для смартфона */
-  .lead__title {
-    font-size: calc(2.5rem + (100vw - 320px)*0.125);
-    line-height: 1.1;
-  }
-}
+

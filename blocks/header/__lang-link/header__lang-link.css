@@ -2,17 +2,24 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
-  line-height: calc(28/24);
+  font-size: 1.5rem;  /*для экранов 768px и более*/
+  line-height: 1.17;
   text-decoration-line: none;
   color: #FFFFFF;
+  margin-left: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: calc(1.125rem + (100vw - 320px)*(24 - 18)/(768 - 320)); /*переход от 18px (1.125rem) к 24px (1.5rem)*/
+    line-height: calc(20px + (100vw - 320px)*(28 - 20)/(768 - 320)); /*переход от 20px (1.11) к 28px (1.17)*/
+  }
 }
 
 @media screen and (max-width: 320px) {
-  /* стили для смартфона */
   .header__lang-link {
     font-size: 1.125rem;
-    line-height: calc(20/18);
+    line-height: 1.11;
   }
 }
 

@@ -1,0 +1,38 @@
+.intro__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.375rem;
+  line-height: 1.07;
+  margin: 0;
+  width: 720px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    width: calc(720px + (100vw - 768px)*(690 - 720)/(1024 - 768)); /*переход от 720px к 690px*/
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    margin: 0 auto;
+    width: calc(288px + (100vw - 320px)*(720 - 288)/(768 - 320)); /*переход от 288px к 720px*/
+    font-size: calc(2rem + (100vw - 320px)*(54 - 32)/(768 - 320)); /*переход от 32px к 54px*/
+    line-height: calc(35px + (100vw - 320px)*(58 - 35)/(768 - 320)); /*переход от 35px к 58px*/
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 2rem;
+    line-height: 1.09;
+    width: 288px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    width: 690px;
+  }
+}

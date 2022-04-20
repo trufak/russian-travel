@@ -1,6 +1,6 @@
 .page {
   background: #2A2C2F;
-  display: grid;
+  /*display: grid;
   grid-template-areas:
   "header"
   "lead"
@@ -8,13 +8,13 @@
   "photo-grid"
   "places"
   "cover"
-  "footer";
+  "footer";*/
   color: #FFFFFF;
-  padding: 28px 0 0;
 }
 
-@media screen and (max-width: 320px) {
-  .page {
-    padding: 16px 0 0;
-  }
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
+
+

@@ -1,16 +1,19 @@
 .header__lang-links {
   list-style: none;
   padding: 0;
-  margin: 18px 0 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 18px;
+  margin: 18px 0 0; /*для экранов 768px и более*/
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-links {
+    margin-top: calc(14px + (100vw - 320px)*(18 - 14)/(768 - 320)); /*переход от 14px к 18px*/
+  }
 }
 
 @media screen and (max-width: 320px) {
-  /* стили для смартфона */
   .header__lang-links {
-    margin: 14px 0 0;
+    margin-top: 14px;
   }
 }

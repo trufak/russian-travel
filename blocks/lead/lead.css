@@ -1,10 +1,15 @@
 .lead {
-  grid-area: lead;
-  padding: 48px 0 0;
+  padding: 48px 0 0;  /*для экранов 1024px и менее*/
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    padding-top: calc(48px + (100vw - 1024px)*(56 - 48)/(1280 - 1024)); /*переход от 48px к 56px*/
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    padding: 56px 0 0;
+    padding-top: 56px;
   }
 }
