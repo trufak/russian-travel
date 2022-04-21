@@ -1,0 +1,35 @@
+.cover__overlay {
+  margin: 0 auto;
+  width: 100%;
+  height: 0;
+  max-width: 1184px;
+  padding-bottom: calc(62.5% - 195px);
+  padding-top: 195px;
+  background-color: rgba(42, 44, 47, 0.3);
+  box-sizing: border-box;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    padding-top: 115px;
+    padding-bottom: calc(62.5% - 115px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    padding-top: 33px;
+    padding-bottom: calc(62.5% - 33px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    padding-top: 245px;
+    padding-bottom: calc(62.5% - 245px);
+  }
+}

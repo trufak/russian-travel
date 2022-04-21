@@ -1,0 +1,28 @@
+.footer {
+  padding: 92px 48px 24px;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "links copyright";
+  justify-content: space-between;
+  gap: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 64px 118px 24px 16px;
+    padding-top: 64px;
+    grid-template-areas:
+    "links"
+    "copyright";
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(2, max-content);
+  }
+}

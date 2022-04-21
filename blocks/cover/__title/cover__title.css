@@ -1,0 +1,18 @@
+.cover__title {
+  margin: 0 auto;
+  width: 560px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.06;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 2rem;
+    line-height: 1.09;
+    width: 288px;
+  }
+}

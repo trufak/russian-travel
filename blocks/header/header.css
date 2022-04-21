@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 28px 48px 0;  /*top - для экранов 768px и более, left и right - для экранов 1024px и более*/
+  padding: 28px 48px 0;
 }
 
 @media screen and (max-width: 1024px) {
