@@ -1,20 +1,11 @@
 .page {
   background: #2A2C2F;
-  /*display: grid;
-  grid-template-areas:
-  "header"
-  "lead"
-  "intro"
-  "photo-grid"
-  "places"
-  "cover"
-  "footer";*/
   color: #FFFFFF;
+  min-width: 260px;
+  font-family: 'Inter';
+  font-style: normal;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
+
 
 

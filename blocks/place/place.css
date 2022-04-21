@@ -16,10 +16,18 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .place {
+    /*переход*/
+    grid-template-columns: calc(340px + (100vw - 768px)*(440 - 340)/(1024 - 768))
+      minmax(min-content, max-content);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px  minmax(min-content, max-content);
-    column-gap: 28x;
+    column-gap: 28px;
   }
 }
 

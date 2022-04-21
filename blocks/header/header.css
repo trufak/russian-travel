@@ -4,21 +4,20 @@
   padding: 28px 48px 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-    padding: 28px calc(24px + (100vw - 768px)*(48 - 24)/(1024 - 768)) 0;  /*переход от 24px к 48px*/
-  }
-}
-
 @media screen and (max-width: 768px) {
   .header {
-    padding: calc(16px + (100vw - 320px)*(28 - 16)/(768 - 320)) /*переход от 16px к 28px*/
-     calc(16px + (100vw - 320px)*(24 - 16)/(768 - 320)) 0;  /*переход от 16px к 24px*/
+    padding: 28px 24px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
     padding: 16px 16px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    padding: 28px 48px 0;
   }
 }

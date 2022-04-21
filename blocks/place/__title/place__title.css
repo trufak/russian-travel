@@ -8,16 +8,19 @@
   line-height: 1.06;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .place__title {
-
+    /*переход*/
+    font-size: calc(2.625rem + (100vw - 768px)*(72 - 42)/(1024 - 768));
+    line-height: calc(46px + (100vw - 768px)*(76 - 46)/(1024 - 768));
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
-    font-size: 2.625rem;
-    line-height: 1.1;
+    /*переход*/
+    font-size: calc(2rem + (100vw - 320px)*(42 - 32)/(768 - 320));
+    line-height: calc(35px + (100vw - 320px)*(46 - 35)/(768 - 320));
   }
 }
 
@@ -27,3 +30,4 @@
     line-height: 1.09;
   }
 }
+

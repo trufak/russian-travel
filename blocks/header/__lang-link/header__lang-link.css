@@ -1,6 +1,4 @@
 .header__lang-link {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;  /*для экранов 768px и более*/
   line-height: 1.17;

@@ -6,12 +6,6 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 768px) {
-  .header__lang-links {
-    margin-top: calc(14px + (100vw - 320px)*(18 - 14)/(768 - 320)); /*переход от 14px к 18px*/
-  }
-}
-
 @media screen and (max-width: 320px) {
   .header__lang-links {
     margin-top: 14px;

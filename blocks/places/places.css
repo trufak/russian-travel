@@ -1,41 +1,19 @@
 .places {
   list-style: none;
-  padding: 92px 48px 0; /*для экрана 1024px*/
-  margin: 0;
+  margin: 0 auto;
   display: grid;
   gap: 80px;
 }
 
-@media screen and (max-width: 1280px) {
-  .places {
-    padding: 92px calc(48px + (100vw - 1024px)*(148 - 48)/(1280 - 1024)) 0;  /*переход от 48px до 148px*/
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .places {
-    padding: calc(88px + (100vw - 768px)*(92 - 88)/(1024 - 768)) /*переход от 88px до 92px*/
-     calc(24px + (100vw - 768px)*(48 - 24)/(1024 - 768)) 0;  /*переход от 24px до 48px*/
-  }
-}
-
 @media screen and (max-width: 768px) {
   .places {
-    padding: calc(64px + (100vw - 320px)*(88 - 64)/(768 - 320)) /*переход от 64px до 88 px*/
-    calc((100vw - 320px)*24/(768 - 320)) 0; /*переход от 0px до 24px*/
     gap: 73px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    padding: 64px 16px 0;
     gap: 50px;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .places {
-    padding: 92px 148px 0;
-  }
-}
