@@ -9,7 +9,13 @@
   gap: 18px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
+  .footer__links {
+    gap: calc((100vw - 425px)*18/(768 - 425));
+  }
+}
+
+@media screen and (max-width: 555px) {
   .footer__links {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, minmax(min-content, max-content));;
