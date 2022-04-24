@@ -1,7 +1,6 @@
 .lead__container {
-  margin: 56px auto 0;
+  margin-top: 56px;
   width: 100%;
-  max-width: 928px;
 }
 
 @media screen and (max-width: 320px) {
@@ -14,6 +13,5 @@
   /* стили для смартфона */
   .lead__container {
     margin-top: 64px;
-    max-width: 984px;
   }
 }

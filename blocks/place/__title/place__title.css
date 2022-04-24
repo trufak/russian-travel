@@ -1,8 +1,6 @@
 .place__title {
   grid-area: title;
   margin: 0;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 1.06;
@@ -19,12 +17,12 @@
 @media screen and (max-width: 768px) {
   .place__title {
     /*переход*/
-    font-size: calc(2rem + (100vw - 320px)*(42 - 32)/(768 - 320));
-    line-height: calc(35px + (100vw - 320px)*(46 - 35)/(768 - 320));
+    font-size: calc(2rem + (100vw - 320px)*(42 - 32)/(768 - 425));
+    line-height: calc(35px + (100vw - 320px)*(46 - 35)/(768 - 425));
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place__title {
     font-size: 2rem;
     line-height: 1.09;

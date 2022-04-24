@@ -9,12 +9,12 @@
 
 @media screen and (max-width: 768px) {
   .header__lang-link {
-    font-size: calc(1.125rem + (100vw - 320px)*(24 - 18)/(768 - 320)); /*переход от 18px (1.125rem) к 24px (1.5rem)*/
-    line-height: calc(20px + (100vw - 320px)*(28 - 20)/(768 - 320)); /*переход от 20px (1.11) к 28px (1.17)*/
+    font-size: calc(1.125rem + (100vw - 425px)*(24 - 18)/(768 - 425)); /*переход от 18px (1.125rem) к 24px (1.5rem)*/
+    line-height: calc(20px + (100vw - 425px)*(28 - 20)/(768 - 425)); /*переход от 20px (1.11) к 28px (1.17)*/
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 1.125rem;
     line-height: 1.11;

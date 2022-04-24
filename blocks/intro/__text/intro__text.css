@@ -3,30 +3,12 @@
   font-size: 1rem;
   line-height: 1.63;
   margin: 40px 0 0;
-  width: 720px;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro__text {
-    width: calc(720px + (100vw - 768px)*(690 - 720)/(1024 - 768)); /*переход от 720px к 690px*/
-  }
 }
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    margin: 40px auto 0;
-    width: calc(288px + (100vw - 320px)*(720 - 288)/(768 - 320)); /*переход от 288px к 720px*/
+    margin: 40px 0 0;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .intro__text {
-    width: 288px;
-  }
-}
 
-@media screen and (min-width: 1024px) {
-  .intro__text {
-    width: 690px;
-  }
-}

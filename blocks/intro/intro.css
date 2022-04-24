@@ -1,17 +1,23 @@
 .intro {
-  padding-left: 48px;
+  padding-left: calc(100%*48/1024);
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    padding-left: 0;
+    padding: 0 calc(100%*24/768) 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    padding: 0 calc(100%*16/320) 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    padding-left: 148px;
+    padding-left: calc(100%*148/1280);
   }
 }

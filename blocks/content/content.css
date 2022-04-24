@@ -4,13 +4,13 @@
   padding-top: 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
   .content {
     gap: 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .content {
     gap: 64px;
   }

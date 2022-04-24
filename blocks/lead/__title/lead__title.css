@@ -3,19 +3,19 @@
   font-size: 6rem;
   line-height: 1.04;
   text-align: center;
-  width: 720px; /*для экранов 768px и более*/
+  width: 720px; /*для экранов более 768px*/
   margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    font-size: calc(2.5rem + (100vw - 320px)*(96 - 40)/(768 - 320)); /*переход от 40px к 96px*/
-    line-height: calc(44px + (100vw - 320px)*(100 - 44)/(768 - 320)); /*переход от 44px к 100px*/
-    width: calc(288px + (100vw - 320px)*(720 - 288)/(768 - 320)); /*переход от 288px к 720px*/
+    font-size: calc(2.5rem + (100vw - 425px)*(96 - 40)/(768 - 425)); /*переход от 40px к 96px*/
+    line-height: calc(44px + (100vw - 425px)*(100 - 44)/(768 - 425)); /*переход от 44px к 100px*/
+    width: calc(288px + (100vw - 425px)*(720 - 288)/(768 - 425)); /*переход от 288px к 720px*/
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .lead__title {
     width: 288px;
     font-size: 2.5rem;

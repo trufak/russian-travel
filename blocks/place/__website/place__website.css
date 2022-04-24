@@ -2,20 +2,4 @@
   grid-area: website;
 }
 
-@media screen and (min-width: 1280px) {
-  .place__website {
 
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__website {
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__website {
-
-  }
-}

@@ -3,32 +3,13 @@
   font-size: 0.75rem;
   line-height: 1.5;
   margin: 33px 0 0;
-  width: 720px;
   list-style: none;
   padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .intro__list {
-    width: calc(720px + (100vw - 768px)*(690 - 720)/(1024 - 768)); /*переход от 720px к 690px*/
-  }
-}
-
 @media screen and (max-width: 768px) {
   .intro__list {
-    margin: 33px auto 0;
-    width: calc(288px + (100vw - 320px)*(720 - 288)/(768 - 320)); /*переход от 288px к 720px*/
+    margin: 33px 0 0;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .intro__list {
-    width: 288px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .intro__list {
-    width: 690px;
-  }
-}

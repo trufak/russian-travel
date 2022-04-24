@@ -33,6 +33,18 @@
 /*Стили блока photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/_baikal/photo-grid__item_baikal.css);
+@import url(../blocks/photo-grid/__item/_baikal2/photo-grid__item_baikal2.css);
+@import url(../blocks/photo-grid/__item/_beach/photo-grid__item_beach.css);
+@import url(../blocks/photo-grid/__item/_elbrus/photo-grid__item_elbrus.css);
+@import url(../blocks/photo-grid/__item/_ergaki/photo-grid__item_ergaki.css);
+@import url(../blocks/photo-grid/__item/_kamchatka/photo-grid__item_kamchatka.css);
+@import url(../blocks/photo-grid/__item/_kamchatka2/photo-grid__item_kamchatka2.css);
+@import url(../blocks/photo-grid/__item/_mountains/photo-grid__item_mountains.css);
+@import url(../blocks/photo-grid/__item/_taiga/photo-grid__item_taiga.css);
+@import url(../blocks/photo-grid/__item/_train/photo-grid__item_train.css);
+@import url(../blocks/photo-grid/__item/_wolf/photo-grid__item_wolf.css);
+@import url(../blocks/photo-grid/__item/_sk-unsplash/photo-grid__item_sk-unsplash.css);
 
 /*Стили блока places*/
 @import url(../blocks/places/places.css);
