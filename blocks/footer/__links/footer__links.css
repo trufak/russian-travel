@@ -18,7 +18,7 @@
 @media screen and (max-width: 555px) {
   .footer__links {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, minmax(min-content, max-content));;
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
     gap: 32px;
   }
 }
