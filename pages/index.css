@@ -1,5 +1,9 @@
 @import url(../vendor/normalize.css);
 
+/*Подключение шрифта Inter*/
+
+@import url(../fonts/Inter_Web/inter.css);
+
 /*Стили блока page*/
 
 @import url(../blocks/page/page.css);
