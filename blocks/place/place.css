@@ -1,6 +1,7 @@
 .place {
   display: grid;
-  grid-template-columns: calc(440px + (100vw - 1024px)*(460 - 440)/(1280 - 1024)) minmax(min-content, max-content); /*для экрана от 1024px до 1280px*/
+  grid-template-columns: calc(440px + (100vw - 1024px)*(460 - 440)/(1280 - 1024))
+  minmax(min-content, max-content); /*для экрана от 1024px до 1280px*/
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   grid-template-areas:
   "title website"

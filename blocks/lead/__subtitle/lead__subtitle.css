@@ -4,7 +4,7 @@
   line-height: 1.2;
   text-align: center;
   max-width: 640px;
-  width: 90vw;
+  width: calc(100%*288/320);
   margin: 32px auto 0; /*для экранов 768px и более*/
 }
 
