@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: calc(440px + (100vw - 1024px)*(460 - 440)/(1280 - 1024))
+  grid-template-columns: calc(440px + (100% - 928px)*(460 - 440)/(984 - 928))
   minmax(min-content, max-content); /*для экрана от 1024px до 1280px*/
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   grid-template-areas:
@@ -20,13 +20,13 @@
 @media screen and (max-width: 1024px) {
   .place {
     /*переход*/
-    grid-template-columns: calc(100%*440/1024) minmax(min-content, max-content);
+    grid-template-columns: calc(100%*440/928) minmax(min-content, max-content);
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: calc(100%*340/1024)  minmax(min-content, max-content);
+    grid-template-columns: calc(100%*340/720)  minmax(min-content, max-content);
     column-gap: 28px;
   }
 }
@@ -40,5 +40,6 @@
     "website"
     "image"
     "description";
+    gap: 32px;
   }
 }

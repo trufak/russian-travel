@@ -1,22 +1,15 @@
 .header__lang-link {
   font-weight: 400;
-  font-size: 1.5rem;  /*для экранов 768px и более*/
+  font-size: 24px;  /*для экранов 768px и более*/
   line-height: 1.17;
   text-decoration-line: none;
   color: #FFFFFF;
   margin-left: 18px;
 }
 
-@media screen and (max-width: 768px) {
-  .header__lang-link {
-    font-size: calc(1.125rem + (100vw - 425px)*(24 - 18)/(768 - 425)); /*переход от 18px (1.125rem) к 24px (1.5rem)*/
-    line-height: calc(20px + (100vw - 425px)*(28 - 20)/(768 - 425)); /*переход от 20px (1.11) к 28px (1.17)*/
-  }
-}
-
 @media screen and (max-width: 425px) {
   .header__lang-link {
-    font-size: 1.125rem;
+    font-size: 18px;
     line-height: 1.11;
   }
 }

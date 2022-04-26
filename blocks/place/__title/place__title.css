@@ -2,30 +2,40 @@
   grid-area: title;
   margin: 0;
   font-weight: 900;
-  font-size: 4.5rem;
+  font-size: 72px;
   line-height: 1.06;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__title {
     /*переход*/
-    font-size: calc(2.625rem + (100vw - 768px)*(72 - 42)/(1024 - 768));
+    font-size: calc(42px + (100vw - 768px)*(72 - 42)/(1024 - 768));
     line-height: calc(46px + (100vw - 768px)*(76 - 46)/(1024 - 768));
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    white-space: pre-wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
     /*переход*/
-    font-size: calc(2rem + (100vw - 320px)*(42 - 32)/(768 - 425));
+    font-size: calc(32px + (100vw - 320px)*(42 - 32)/(768 - 425));
     line-height: calc(35px + (100vw - 320px)*(46 - 35)/(768 - 425));
   }
 }
 
 @media screen and (max-width: 425px) {
   .place__title {
-    font-size: 2rem;
+    font-size: 32px;
     line-height: 1.09;
+    margin: 0 16px;
+    white-space: normal;
   }
 }
 

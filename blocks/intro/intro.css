@@ -18,6 +18,6 @@
 
 @media screen and (min-width: 1280px) {
   .intro {
-    padding-left: calc(100%*148/1280);
+    padding-left: 148px;
   }
 }

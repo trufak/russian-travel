@@ -20,7 +20,7 @@
   .photo-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    gap: 16px;
+    gap: 12px;
     padding: 0 calc(100%*16/320) 0;
   }
 }
