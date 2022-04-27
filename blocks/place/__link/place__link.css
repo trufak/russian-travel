@@ -3,6 +3,8 @@
   font-size: 1.125rem;
   line-height: 1.22;
   color: #FFFFFF;
+  vertical-align: bottom;
+  margin: 0 0 -1px;
 }
 
 .place__link:hover {

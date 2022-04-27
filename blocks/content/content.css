@@ -2,6 +2,7 @@
   display: grid;
   gap: 92px;
   padding-top: 48px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px){

@@ -1,11 +1,18 @@
 .footer {
   padding: 92px 48px 24px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content max-content));
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
   grid-template-rows: 1fr;
   grid-template-areas:
   "links copyright";
   justify-content: space-between;
+  max-width: 1184px;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -26,8 +33,8 @@
     grid-template-areas:
     "links"
     "copyright";
-    grid-template-columns: minmax(min-content max-content);
-    grid-template-rows: repeat(2, minmax(min-content max-content));
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
     gap: 48px;
   }
 }

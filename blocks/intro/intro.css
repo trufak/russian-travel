@@ -1,5 +1,5 @@
 .intro {
-  padding-left: calc(100%*48/1024);
+  padding: 0 calc(100%*286/1024) 0 calc(100%*48/1024);
   display: grid;
   grid-template-columns: minmax(min-content, max-content);
 }
@@ -18,6 +18,8 @@
 
 @media screen and (min-width: 1280px) {
   .intro {
-    padding-left: 148px;
+    padding: 0 442px 0 148px;
+    margin: 0 auto;
+    max-width: 690px;
   }
 }
